@@ -16,6 +16,7 @@ main {
     padding-right: 100px;
     padding-top: 125px;
     padding-bottom: 125px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
