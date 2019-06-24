@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html lang=“en”>
 	<head>
 		<title>Ridge's Portfolio</title>
 		<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="Ridge's Portfolio.css">
+		<script src='index.js'></script>
 	</head>		
 	<body>
-		<header>
+		<main>
 			<div>
 				<h1> Hey, I'm Ridge Falco! </h1>
 				
@@ -13,50 +15,39 @@
 
 				<img src='https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2FRidge.jpg?v=1561384374657' id='ridge' alt='Photo of Me'>
 			</div>
-		</header>
-		<main>
-			<h2> The Languages I've Learned so Far. </h2>
-			
-			<ul>
-				<li>Python</li>
-				<li>Java Script</li>
-				<li>The Basics of HTML</li>
-			</ul>
-			
-			<h4> I understand that I have a lot more to learn and I hope to add more languages to the list above as I grow. </h4>
-			
-			<p> I obtained my knowledge from a variety of courses and classes, like those offered at my high school, Perry Meridian, and programs I've taken over the summer. </p>
-			
-			<h2> Activities I've done to help further my tech career (in order). </h2>
-			
-			<ol>
-				<li> Computer Science 1: Learned Python and some Java Script
-				<li> Nextech: Learned HTML, more Java Script, and CSS
-			</ol>
-			
-			<h4> I understand that education opportunities, big or small, can help me flesh out, not only my programming skills, but my soft skills and business skills. </h4>
-			
-			<p> When I'm not learning new languages or trying to get closer to reaching my goal of making a professional career in the tech world, I spend my free time on my hobbies. 
-			
-			<h2> My Hobbies. </h2> 
-
-			<ul>
-				<li>Learning about history.</li>
-				<li>Playing games. My favorites being EU4, Skyrim, Fallout: New Vegas and The Witcher 3: Wild Hunt</li>
-				<li>Listening to political debates/podcasts.</li>
-				<li>Hiking in parks, or walking around downtown.</li>
-			</ul>
-			
-			<h4> I try to use the free time I to better improve myself and to help myself learn even more.</h4>
-
-			<p> I've also done some coding projects that I'm proud of.</p>
-
-			<dl>
-				<de> A game using motion controls:</de>
-				<dd> The Game used a circuit board that had an accelerometer in it that allowed for the user to move a character on screen by tilting the board. I used this in order to create a small and short game to demonstrate that I could use the accelerometer. The game was coded in Java Script. </dd>
-			</dl>
-
-			<h4> I understand that completed projects are the best way to display my understanding and expertise in a given language and that I know how to apply the knowledge I've learned over the years. I hope to grow the catolouge of my achievements as the years go by.</h4>
 		</main>
+		<footer>
+			<div>
+				<div onmouseover="widthHundredHome()" onmouseout="widthNormal()">
+					<button class='button' id='home'>
+						<a href='index.html'> Home </a>
+					</button>
+				</div>
+				
+				<div onmouseover="widthHundredLangs()" onmouseout="widthNormal()">
+					<button class='button' id='langs'>
+						<a href='langs.html'> Languages </a>
+					</button>
+				</div>
+
+				<div onmouseover="widthHundredActs()" onmouseout="widthNormal()">
+					<button class='button' id='acts'>
+						<a href='acts.html'> Activities </a>
+					</button>
+				</div>
+
+				<div onmouseover="widthHundredHobbies()" onmouseout="widthNormal()">
+					<button class='button' id='hobbies'>
+						<a href='hobbies.html'> Hobbies </a>
+					</button>
+				</div>
+
+				<div onmouseover="widthHundredProjects()" onmouseout="widthNormal()">
+					<button class='button' id='projects'>
+						<a href='projects.html'> Projects </a>
+					</button>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

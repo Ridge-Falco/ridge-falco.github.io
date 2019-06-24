@@ -3,19 +3,19 @@ body {
     background: rgba(0, 0, 0, 0.5);
     font-family: 'Noto serif', serif;
     margin: 0;
-}
-header {
-    height: 500px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 125px;
-    padding-bottom: 125px;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+main {
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,9 +30,139 @@ p {
 
 #ridge {
     size: 100px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10%;
     width: 200px;
     height: 300px;
     margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.button {
+    font-size: 24px;
+    width: 20%;
+    background-color: gray;
+    color: white;
+    border: none;
+    font-family: 'Noto serif', serif;
+    text-align: center;
+    padding: 16px 32px;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    z-index: 1;
+}
+
+.button:hover {
+    background-color: white;
+    color: gray;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover a {
+    text-decoration: none;
+    color: gray;
+}
+
+#home {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#home:hover {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#langs {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fchris-ried-ieic5Tq8YMk-unsplash.jpg?v=1561400341895);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#langs:hover {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fchris-ried-ieic5Tq8YMk-unsplash.jpg?v=1561400341895);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#acts {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fsaulo-mohana-wNz7_5EvUWU-unsplash.jpg?v=1561401855387);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#acts:hover {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fsaulo-mohana-wNz7_5EvUWU-unsplash.jpg?v=1561401855387);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hobbies {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Falex-haney-lfQyS-TnqEg-unsplash.jpg?v=1561402356057);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hobbies:hover {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Falex-haney-lfQyS-TnqEg-unsplash.jpg?v=1561402356057);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#projects {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fjeff-sheldon-JWiMShWiF14-unsplash.jpg?v=1561402630986);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+#projects:hover {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fjeff-sheldon-JWiMShWiF14-unsplash.jpg?v=1561402630986);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
 }
