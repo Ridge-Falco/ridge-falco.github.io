@@ -176,10 +176,12 @@ li {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 ol {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .homeMain {
@@ -187,6 +189,9 @@ ol {
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -195,6 +200,9 @@ ol {
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fchris-ried-ieic5Tq8YMk-unsplash.jpg?v=1561400341895);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -203,6 +211,9 @@ ol {
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fsaulo-mohana-wNz7_5EvUWU-unsplash.jpg?v=1561401855387);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -211,6 +222,9 @@ ol {
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Falex-haney-lfQyS-TnqEg-unsplash.jpg?v=1561402356057);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -219,5 +233,8 @@ ol {
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fjeff-sheldon-JWiMShWiF14-unsplash.jpg?v=1561402630986);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
