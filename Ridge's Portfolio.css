@@ -3,6 +3,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     font-family: 'Noto serif', serif;
     margin: auto;
+    background-color: black;
 }
 main {
     height: 500px;
