@@ -3,11 +3,6 @@ body {
     background: rgba(0, 0, 0, 0.5);
     font-family: 'Noto serif', serif;
     margin: auto;
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
-    background-size: cover;
-    background-position: center;
 }
 main {
     height: 500px;
@@ -21,10 +16,10 @@ main {
     text-align: center;
 }
 h1 {
-    text-align: center
+    text-align: center;
 }
 p {
-    text-align: center
+    text-align: center;
 }
 
 #ridge {
@@ -78,7 +73,7 @@ footer {
 #home {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow1.jpg?v=1561410945973);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow1.jpg?v=1561466984417);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +82,7 @@ footer {
 #home:hover {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow1.jpg?v=1561410945973);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow1.jpg?v=1561466984417);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,7 +91,7 @@ footer {
 #langs {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow2.jpg?v=1561410946526);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow2.jpg?v=1561466981112);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +100,7 @@ footer {
 #langs:hover {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow2.jpg?v=1561410946526);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow2.jpg?v=1561466981112);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,7 +109,7 @@ footer {
 #acts {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow3.jpg?v=1561410945854);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow3.jpg?v=1561466981507);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,7 +118,7 @@ footer {
 #acts:hover {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow3.jpg?v=1561410945854);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow3.jpg?v=1561466981507);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,7 +127,7 @@ footer {
 #hobbies {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow4.jpg?v=1561410944183);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow4.jpg?v=1561466981051);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +136,7 @@ footer {
 #hobbies:hover {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow4.jpg?v=1561410944183);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow4.jpg?v=1561466981051);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,7 +145,7 @@ footer {
 #projects {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow5.jpg?v=1561410944679);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow5.jpg?v=1561466981408);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
@@ -159,8 +154,60 @@ footer {
 #projects:hover {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow5.jpg?v=1561410944679);
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Flow5.jpg?v=1561466981408);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.homeMain {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fbailey-zindel-396398-unsplash.jpg?v=1561384389799);
+    background-size: cover;
+    background-position: center;
+}
+
+.langsMain {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fchris-ried-ieic5Tq8YMk-unsplash.jpg?v=1561400341895);
+    background-size: cover;
+    background-position: center;
+}
+
+.actsMain {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fsaulo-mohana-wNz7_5EvUWU-unsplash.jpg?v=1561401855387);
+    background-size: cover;
+    background-position: center;
+}
+
+.hobbiesMain {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Falex-haney-lfQyS-TnqEg-unsplash.jpg?v=1561402356057);
+    background-size: cover;
+    background-position: center;
+}
+
+.projectsMain {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(https://cdn.glitch.com/da34a10d-7af9-48e4-8bf8-88eabef0b73e%2Fjeff-sheldon-JWiMShWiF14-unsplash.jpg?v=1561402630986);
+    background-size: cover;
+    background-position: center;
 }
