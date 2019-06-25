@@ -27,6 +27,11 @@ a, a:visited {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
 #ridge {
     width: 200px;
     height: 300px;
