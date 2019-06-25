@@ -22,6 +22,11 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #ridge {
     width: 200px;
     height: 300px;
