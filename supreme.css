@@ -22,7 +22,7 @@ body {
     transform: translate(-70%, -50%);
 }
 
-h1 {
+textarea {
     font-size: 100px;
     text-align: center;
     margin: 0;
@@ -31,4 +31,11 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Futura Heavy Italic", sans-serif;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+::placeholder {
+    color: white;
 }
