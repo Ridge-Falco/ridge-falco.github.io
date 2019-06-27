@@ -12,16 +12,6 @@ body {
     height: 100%;
 }
 
-#rc {
-    font-size: 100px;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-}
-
 textarea {
     font-size: 100px;
     text-align: center;
