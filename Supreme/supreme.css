@@ -24,8 +24,8 @@ textarea {
     background-color: red;
     color: white;
     border: none;
-    width: 50vw;
-    height: 70vh;
+    width: 90vw;
+    height: 50vh;
 }
 
 ::placeholder {
