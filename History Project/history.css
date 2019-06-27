@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Futura Heavy Regular";
+    src: url("/Supreme/Futura\ Heavy\ Regular.otf");
+    font-family: "Futura Heavy Italic";
+    src: url("/Supreme/Futura\ Heavy\ Italic.otf");
+}
+
+body {
+    font-family: 'Futura Heavy Regular', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 1;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 25px;
+    background-color: rgb(31, 31, 31);
+    color: lightgray;
+    word-wrap: normal;
+    overflow-x: hidden;
+}
+
+.sidebar a, .dropdown-btn {
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    color: lightgray;
+    background-color: rgb(31, 31, 31);
+    font-family: 'Futura Heavy Regular', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    width: 100%;
+    background: none;
+}
+
+.info {
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+.active {
+    background-color: lightgray;
+    color: rgb(31, 31, 31);
+}
+
+.sidebar a:hover, .dropdown-btn:hover {
+    color: white;
+}
+
+.dropdown-stuff {
+    display: none;
+    padding-left: 10px;
+    background-color: rgb(61, 61, 61);
+}
+
+.dropdown-stuff a {
+    color: rgb(202, 202, 202);
+}

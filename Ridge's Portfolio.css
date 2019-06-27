@@ -1,12 +1,16 @@
+html {
+    height: 100%;
+}
+
 body {
     color: white;
     background: rgba(0, 0, 0, 0.5);
     font-family: 'Noto serif', serif;
     margin: auto;
     background-color: black;
+    min-height: 100%;
 }
 main {
-    height: 500px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 125px;
