@@ -48,6 +48,7 @@ footer {
     position: fixed;
     bottom: 0;
     border-top: 2px double black;
+    border-bottom: 2px double black;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -240,7 +241,6 @@ ol {
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
 }
 
