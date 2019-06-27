@@ -17,10 +17,7 @@ main {
     align-items: center;
     text-align: center;
 }
-h1 {
-    text-align: center;
-}
-p {
+h1, p {
     text-align: center;
 }
 
@@ -177,12 +174,7 @@ li {
     list-style-type: none;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ol {
+ul, ol {
     list-style-type: none;
     padding-left: 0;
 }
